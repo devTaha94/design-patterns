@@ -11,9 +11,11 @@ class StrategyTest extends TestCase
         require_once './Strategy/StrategyB.php';
 
         $strategy = new Context(new StrategyA());
+
         $this->assertInstanceOf(StrategyA::class,$strategy->doSomeBusinessLogic());
 
         $strategy->setStrategy(new StrategyB());
+
         $this->assertInstanceOf(StrategyB::class,$strategy->doSomeBusinessLogic());
     }
 }
