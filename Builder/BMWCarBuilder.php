@@ -7,26 +7,30 @@ class BMWCarBuilder implements CarBuilderInterface
 
     public function createCar()
     {
-        // TODO: Implement createCar() method.
+        echo 'Create BMW Car';
+        return $this;
     }
 
     public function addDoors()
     {
-        // TODO: Implement addDoors() method.
+        echo 'Add doors to BMW Car';
+        return $this;
     }
 
     public function addBody()
     {
-        // TODO: Implement addBody() method.
+        echo 'Add body to BMW Car';
+        return $this;
     }
 
     public function addWheels()
     {
-        // TODO: Implement addWheels() method.
+        echo 'Add wheels to BMW Car';
+        return $this;
     }
 
     public function getCar()
     {
-        // TODO: Implement getCar() method.
+        return 'Get BMW Car';
     }
 }

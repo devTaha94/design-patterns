@@ -7,26 +7,30 @@ class ToyotaCarBuilder implements CarBuilderInterface
 
     public function createCar()
     {
-        // TODO: Implement createCar() method.
+        echo 'Create Toyota Car';
+        return $this;
     }
 
     public function addDoors()
     {
-        // TODO: Implement addDoors() method.
+        echo 'Add doors to Toyota Car';
+        return $this;
     }
 
     public function addBody()
     {
-        // TODO: Implement addBody() method.
+        echo 'Add body to Toyota Car';
+        return $this;
     }
 
     public function addWheels()
     {
-        // TODO: Implement addWheels() method.
+        echo 'Add wheels to Toyota Car';
+        return $this;
     }
 
     public function getCar()
     {
-        // TODO: Implement getCar() method.
+        return 'Get Toyota Car';
     }
 }
